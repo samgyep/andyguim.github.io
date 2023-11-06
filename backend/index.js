@@ -5,7 +5,7 @@ import userRoute from "./routes/userRoute.js";
 import sessionRoute from "./routes/sessionRoute.js";
 import cors from "cors";
 import dotenv from "dotenv";
-import { path } from "path";
+import path from "path";
 
 dotenv.config();
 const __dirname = path.resolve();
