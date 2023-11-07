@@ -1,5 +1,4 @@
 import express from "express";
-import { PORT, mongoDB_URL } from "./config.js";
 import mongoose from "mongoose";
 import userRoute from "./routes/userRoute.js";
 import sessionRoute from "./routes/sessionRoute.js";
